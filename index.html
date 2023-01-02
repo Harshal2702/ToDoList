@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDoList</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td>
+            
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                
+                <div>
+                    <label for="ToDo">To Do</label>
+                    <input type="text" name="ToDo" id="ToDo">
+                </div>
+                <div>
+                    <label for="date">For Date</label>
+                   <input type="datetime-local" name="date" id="date">
+                </div>
+                <div class="form_action--button">
+                 <input type="submit" value="Add">
+                </div>
+            </form>
+            
+        
+            </td>
+        </tr>
+    </table>
+    <td>
+        <table class="list" id="storeList">
+            <thead>
+              <tr>
+                <th>List</th>
+                <th>Date-Time</th>
+              </tr>
+             </thead>
+             <tbody>
+    
+             </tbody>
+    
+        </table>
+    </td>
+    
+
+<script type="text/javascript" src="./script.js"></script> 
+</body>
+</html>

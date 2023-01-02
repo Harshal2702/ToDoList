@@ -1,0 +1,61 @@
+body {
+    background-image: url('todo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-style: italic;
+  }
+table{
+    width: 80%;
+    margin: 40px auto;
+    
+ 
+}
+tr:hover {background-color: rgb(236, 236, 236);}
+input[type="text"]{
+    width:75%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+input[type="datetime-local"]{
+    background: rgb(255, 255, 255);
+    padding:6px 15px;
+    margin:15px 0 10px;
+}
+input[type="submit"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+input[type="submit"]:hover{
+    background: #816da5;
+}
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#d1e69a ;
+}
